@@ -1,0 +1,14 @@
+<div>evo mene iz testa1</div>
+<h4>Date formatted: {{dateAspNet | moment:'M/D/YYYY h:m A'}}</h4>
+<h4>Date formatted: {{dateAspNet | moment:'Do.MMMM.YYYY'}}</h4>
+<h4>Not formatted: {{dateAspNet }}</h4>
+<div class="col-sm-8 col-sm-offset-2">
+    <div class="page-header"><h1>Example of working ng-show/ng-hide with Expressions</h1></div>
+    <div class="form-group">
+       <input type="text" class="form-control" ng-model="languages">(try with php, angularjs, python, ruby)
+    </div>
+    <div class="form-group" ng-show="languages == 'php'"><p>I am working on PHP </p></div>
+    <div class="form-group" ng-show="languages == 'angularjs'"><p>I am working on angularJS </p></div>
+    <div class="form-group" ng-show="languages == 'python'"><p>I am working on Python </p></div>
+    <div class="form-group" ng-show="languages == 'ruby'"><p>I am working on Ruby </p></div>
+ </div>
